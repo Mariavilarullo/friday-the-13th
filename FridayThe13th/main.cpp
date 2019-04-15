@@ -92,7 +92,7 @@ int main()
         window.setPosition(sf::Vector2i(400, 0));
         while (window.isOpen())
         {
-            window.setSize(sf::Vector2u(500, 650)); /// descomentar cuando quiera agrandar la ventana al estilo villa
+            window.setSize(sf::Vector2u(500, 650)); 
             ///sf::Event event;
             if(!hidden)
             {
